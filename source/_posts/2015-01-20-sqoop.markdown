@@ -1,0 +1,272 @@
+---
+title : "sqoop使用入门"
+layout: post
+category : others
+tagline: ""
+tags : [git]
+---
+
+
+sqoop安装
+--------
+
+1.**安装hadoop2.6.0(2.x)**
+
+到hadoop官网，下载最新的hadoop，[下载链接 http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/](http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/)
+
+>	wget http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/stable/hadoop-2.6.0.tar.gz
+
+或
+
+>	axel http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/stable/hadoop-2.6.0.tar.gz
+
+创建hadoop的根目录，压缩包解压缩后，将解压缩的目录拷贝到hadoop根目录中，作为hadoop根目录的子目录  
+参考[官网](http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)，对hadoop进行配置  
+
+ps:  
+  
+hadoop可以对namenode,datanode,tmpdir,logdir进行配置  
+
+修改etc/hadoop/hadoop/core-site.xml
+
+>
+>	<property>
+>	    <name>dfs.name.dir</name>
+>		<!--
+>			//NameNode持久存储名字空间及事务日志的本地文件系统路径。
+>		-->
+>		<value>/data/hdfs/hdfs1</value>
+>	</property>
+>  
+>	<property>
+>		<!--
+>		//DataNode存放块数据的本地文件系统路径，逗号分割的列表。
+>		-->
+>		<name>dfs.data.dir</name>
+>		<value>/data/hdfs/hdfsdata1</value>
+>	</property>
+>  
+>	<property>
+>		<!--
+>		//Hadoop的默认临时路径，这个最好配置，然后在新增节点或者其他情况下莫名其妙的DataNode启动不了，
+>		//就删除此文件中的tmp目录即可。不过如果删除了NameNode机器的此目录，那么就需要重新执行NameNode格式化的命令了。
+>		-->
+>		<name>hadoop.tmp.dir</name>
+>		<value>/data/hdfs/hdfstmp</value>
+>		<description>A base for other temporary directories.</description>
+>	</property>
+>
+
+修改etc/hadoop/hadoop-env.sh文件
+
+>	export HADOOP_LOG_DIR=/data/hadooplogs/
+
+
+2.**安装hive**
+
+>	wget http://apache.dataguru.cn/hive/stable/apache-hive-0.14.0-bin.tar.gz
+
+配置:
+
+*	cp conf/hive-default.xml.template conf/hive-default.xml
+*	cp conf/hive-env.sh.template conf/hive-env.sh
+
+touch hive-site.xml
+
+>
+>	<configuration>
+>
+>		<property>
+>			<name>javax.jdo.option.ConnectionURL</name>
+>			<value>jdbc:mysql://localhost:3306/hive?createData baseIfNotExist=true</value>
+>			<description>JDBC connect string for a JDBC metastore</description>
+>		</property>
+>
+>		<property>
+>			<name>javax.jdo.option.ConnectionDriverName</name>
+>			<value>com.mysql.jdbc.Driver</value>
+>			<description>Driver class name for a JDBC metastore</description>
+>		</property>
+>
+>		<property>
+>			<name>javax.jdo.option.ConnectionUserName</name>
+>			<value>root</value>
+>			<description>username to use against metastore database</description>
+>		</property>
+>
+>		<property>
+>			<name>javax.jdo.option.ConnectionPassword</name>
+>			<value>test</value>
+>			<description>password to use against metastore database</description>
+>		</property>
+>
+>	</configuration>
+>
+
+
+将解压缩的目录拷贝到hadoop的根目录中，作为一个子目录，进行配置文件的配置  
+
+3.**安装hbase**
+
+>	wget http://apache.fayea.com/hbase/stable/hbase-0.98.9-hadoop2-bin.tar.gz
+
+4.**sqoop安装**
+
+下载支持hadoop2.x的sqoop可执行压缩包
+
+>	wget http://psg.mtu.edu/pub/apache/sqoop/1.4.5/sqoop-1.4.5.bin__hadoop-2.0.4-alpha.tar.gz	
+
+将解压缩的目录拷贝到hadoop根目录中，进行配置文件的配置  
+
+下载java mysql connector,并拷贝到sqoop/lib/目录,[connector下载地址](http://dev.mysql.com/downloads/connector/j/5.0.html).  
+
+sqoop命令
+-----
+
+1.**codegen:将数据库表生成jar文件**
+
+>	sqoop/bin/sqoop codegen --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book
+
+*该文件可通过mapreduce执行???未验证*
+
+2.**eval:快速验证sql语句的执行结果**
+
+>	sqoop/bin/sqoop eval --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root -query "SELECT * FROM book LIMIT 10"
+
+*执行结果显示在控制台*
+
+3.**查询数据库列表**
+
+>	sqoop/bin/sqoop list-databases --connect jdbc:mysql://localhost:3306/ -username root -password root
+
+4.**查询数据库中的所有表**
+
+>	sqoop/bin/sqoop list-tables --connect jdbc:mysql://localhost:3306/test_sqoop -username root -password root
+
+5.**导入数据到hdfs**
+
+>	sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book -m 1 --target-dir /user/hive/result
+
+*	参数说明
+
+>	--append
+>	--warehouse-dir <dir>:与--target-dir不能同时使用，指定数据导入的存放目录，适用于hdfs导入，不适合导入hive目录
+
+6.**合并hdfs中数据**
+
+7.**复制表结构**
+
+>	sqoop/bin/sqoop create-hive-table --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book
+
+8.**导入mysql表中数据到hive**
+
+>	sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book --fields-terminated-by "\t" --lines-terminated-by "\n" -m 1 --hive-import --hive-overwrite --create-hive-table --hive-table book --delete-target-dir
+
+*	参数说明
+
+>	--table <table-name>:关系数据库表名，数据从该表中获取
+>
+>	--boundary-query <statement>:查询的字段中不能有数据类型为字符串的字段
+>
+>	--columns<col1,col2,col…>:
+>
+>	--split-by<column-name>:表的列名，用来切分工作单元，一般后面跟主键ID
+>
+>	--query，-e<statement>:	从查询结果中导入数据，该参数使用时必须指定--target-dir、--hive-table，在查询语句中一定要有where条件且在where条件中需要包含$CONDITION
+>
+>	--where statement:从关系数据库导入数据时的查询条件，--where "id = 2"
+>
+>	--target-dir <dir>:指定hdfs路径
+>
+>	--null-string <null-string>: string类型的字段值为null时的填充值
+>
+>	--null-non-string <null-string>: 非string类型的字段值为null时的填充值
+>
+>	-m,--num-mappers n:启动N个map来并行导入数据，默认是4个
+>
+>	--direct:直接导入模式，使用的是关系数据库自带的导入导出工具。官网上是说这样导入会更快
+
+9.**增量导入mysql数据到hive**
+
+>	sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book --fields-terminated-by "\t" --lines-terminated-by "\n" -m 1  --check-column id --incremental append --last-value 4 --hive-import --hive-table book
+>
+>	--check-column col:用来作为判断的列名，如id
+>	--incremental mode:
+>	>	append：追加，比如对大于last-value指定的值之后的记录进行追加导入
+>	>	lastmodified：最后的修改时间，追加last-value指定的日期之后的记录
+>
+>	--last-value value:指定自从上次导入后列的最大值（大于该指定的值），也可以自己设定某一值
+
+10.**导入数据库中的所有表到hdfs**
+
+>	sqoop/bin/sqoop import-all-tables --connect jdbc:mysql://localhost:3306/test_sqoop
+
+11.**导入数据库中的所有表到hive**
+
+>	sqoop/bin/sqoop import-all-tables --connect jdbc:mysql://localhost:3306/test_sqoop	--hive-import
+
+12.**生成job**
+
+>	sqoop/bin/sqoop job --create myjob  --import --connectjdbc:mysql://localhost:3306/test_sqoop --table book
+>	sqoop/bin/sqoop job --exec myjob
+
+13.**free form query import**
+
+Sqoop支持导入查询结果集. Instead of using the --table, --columns and --where arguments, you can specify a SQL statement with the --query argument.  
+  
+通过--query方式导入时必须指定导入目标地址 --target-dir.(*通过hdfs文件的方式操作hive*)  
+  
+If you want to import the results of a query in parallel, then each map task will need to execute a copy of the query, with results partitioned by bounding conditions inferred by Sqoop. Your query must include the token $CONDITIONS which each Sqoop process will replace with a unique condition expression. You must also select a splitting column with --split-by.  
+  
+>	sqoop import --query 'SELECT * FROM book WHERE id=3 AND $CONDITIONS' --split-by id --target-dir /user/hive/book
+
+增量更新mysql到hive策略
+----
+
+1.**借助job及时间戳**
+
+需数据库中存在时间戳字段(timestamp类型)
+
+>	sqoop/bin/sqoop job --create incretest -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table incretest -m 1 --hive-import --hive-overwrite --hive-table INCRETEST --append --incremental lastmodified --check-column update_time --last-value '2015/1/20 10:00:00'
+
+>	sqoop/bin/sqoop job --create incretest -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table incretest -m 1 --hive-import --hive-table INCRETEST --append --incremental lastmodified --check-column update_time --last-value '2015/1/20 10:00:00'
+多次执行次job，sqoop job会自动将起始时间更新为job上次执行的时间，已验证
+
+>	sqoop/bin/sqoop job --exec incretest
+
+2.**借助job及 increase id**
+
+需数据库中存在increase id(int类型)
+
+>	sqoop/bin/sqoop job --create import_book -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book  --fields-terminated-by "\t" --lines-terminated-by "\n" -m 1 --hive-import --hive-table book --incremental append --check-column id --last-value '0'
+
+多次执行次job，sqoop job会自动将起始ID更新为job上次执行的Upper_ID，已验证
+
+>	sqoop/bin/sqoop job --exec incretest
+
+
+3.**借助hive工具**
+
+>	$SQOOP_HOME/bin/sqoop import --connect ${rdbms_connstr} --username ${rdbms_username} --password ${rdbms_pwd} --table ${rdbms_table} --columns "${rdbms_columns}" --where "CREATE_TIME > to_date('${startdate}','yyyy-mm-dd hh24:mi:ss') and CREATE_TIME < to_date('${enddate}','yyyy-mm-dd hh24:mi:ss')" --hive-import --hive-overwrite --hive-table ${hive_increment_table}
+
+>	$HIVE_HOME/bin/hive -e "insert overwrite table ${hive_full_table} select * from ${hive_increment_table} union all select a.* from ${hive_full_table} a left outer join ${hive_increment_table} b on a.service_code = b.service_code where b.service_code is null;"
+
+
+4.**文件方式操作hive**
+
+>	sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root  -e "select * from book where id=4 and \$CONDITIONS"  --fields-terminated-by "\t" --lines-terminated-by "\n" --append --as-textfile --target-dir /user/hive/warehouse/book -m 1
+
+
+BUG
+----
+
+--hive-overwrite 与  --hive-partition-key --hive-partition-value	不能同时使用
+create-hive-table  命令中 --hive-table 与  --hive-partition-key 	不能同时使用
+
+Ref
+----
+
+1.	[官方文档http://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html](http://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html)  
+2.	[sqoop命令详解](http://www.zihou.me/html/2014/01/28/9114.html/comment-page-1)
+
+

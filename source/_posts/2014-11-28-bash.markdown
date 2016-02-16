@@ -1,0 +1,250 @@
+---
+title : "Bash语法"
+layout: post
+category : bash
+tagline: ""
+tags : [bash, Bash]
+---
+
+
+### BASH语法
+
+#### 表达式求值
+
+*	eval 对表达式的值计算两次，并返回
+*	` 计算表达式的值
+*	示例
+
+>	eval $()
+
+*	数学表达式计算
+
+>	num=$[num+1]
+>	num=$((num+1))
+>	num=`expr $num+1`
+
+
+#### () 与 {}
+
+*	()用户组合执行多个命令；
+*	{}用户组合执行多个命令；
+*	()多个命令在子Shell中执行；{}在当前Shell中执行；
+
+#### (()) 与 $(())
+
+*	(())专用于数值计算；
+*	$(())直接获取数值计算结果；
+
+####  ' 与 "
+
+*	'号内所有字符当作普通字符处理
+*	"号内'$'与'`'当作特殊字符处理
+
+####  文件重定向
+
+*	**exec**
+
+>	exec 3<>$filename
+
+*	关闭3的输出
+
+>	exec 3<&-
+
+*	关闭3的输入
+
+>	exec 3>&-
+
+####  数组
+
+*	声明数组
+
+>	declare -a array_name
+
+*	声明关联数组
+
+>	declare -A array_name
+
+*	创建数组
+
+>	array_name=(\'ele1\', \'ele2\')
+>	array_name=([0]=\'ele1\', [1]=\'ele2\')
+>	array_name[0]=\'ele1\'		array_name[1] = \'ele2\'
+>	str="1 2 3 4 5"		arr=($str)
+>	read -a array_name <<< "str str2 str3"
+>	IFS=: read -a array_name <<< "str:str2:str3"
+
+*	数组操作
+
+>	${#array_name[*]}
+>	${#array_name[@]}
+>	${array_name[*]}
+>	${array_name[@]}
+>	${array_name[n]}
+
+*	销毁数组
+
+>	unset arr[1]	#销毁某个元素
+>	unset arr		#销毁整个数组
+>	unset arr[*]		#销毁整个数组
+>	unset arr[@]		#销毁整个数组
+
+*	关联数组
+
+>	array_name=([key1]="value1", [key2]="value2")  
+  
+>	for key in ${!array_name[*]}
+>	do
+>		echo $key,${array_name[$key]}
+>	done
+  
+>	for value in ${array_name[*]}
+>	do
+>		echo $value
+>	done
+
+*	数组名本身是变量(变量数组名)
+
+>	read driver_id yearmonth<<-EOF
+>		$line
+>	EOF
+>	arrname=driver_online_arr_${yearmonth}
+>	eval $arrname[$driver_id]=1
+>	eval echo \${$arrname[$driver_id]}
+>	value=$(eval echo \${$arrname[$driver_id]})
+
+
+#### 字符串处理
+
+*	取字符串长度
+
+>	expr length $str
+>	expr ${#str}
+>	expr "$str" : ".*"
+
+
+*	查找字串位置
+
+>	expr index $str "substr"
+
+*	字符串替换
+
+>	str="apple, tree, apple tree"
+>	echo ${str/apple/APPLE}   # 替换第一次出现的apple
+>	echo ${str//apple/APPLE}  # 替换所有apple
+>	echo ${str/#apple/APPLE}  # 如果字符串str以apple开头，则用APPLE替换它
+>	echo ${str/%apple/APPLE}  # 如果字符串str以apple结尾，则用APPLE替换它
+
+
+*	选取字串
+
+>	expr substr "$str" start_pos end_pos
+>	echo ${str:start_pos}
+>	echo ${str:start_pos:end_pos}
+>	echo ${str:-start_pos:end_pos}
+
+*	截_去_字串
+
+>	echo ${str#a*c}		#左边截取最短的匹配
+>	echo ${str##a*c}	#左边截取最长的匹配
+>	echo ${str#"a*c"}	#左边截取最短的匹配
+>	echo ${str##"a*c"}	#左边截取最长的匹配
+>	echo ${str%a*c}		#右边截取最短的匹配
+>	echo ${str%%a*c}	#右边截取最长的匹配
+
+*	比较
+
+>	[[ "a.txt" == a.* ]]		#pattern compare
+>	[[ "a.txt" = ~ .*\.txt ]]	#regex compare
+>	[[ "str1" == "str2" ]]
+>	[[ "str1" < "str2" ]]
+
+*	连接
+
+>	${str1}${str2}
+
+
+### BASH调试
+
+*	-x 将每条执行的命令输出到标准输出
+
+>	set -x
+>	/bin/bash -x
+>	bash -x bashfilr.sh
+
+*	-n 直输出命令，不执行
+*	-v 将读取到的shell脚本输出到标准输出
+*	trap
+
+>	trap 'err_func param' ERR|EXIT|DEBUG
+
+*	定义 DEBUG 调试钩子
+
+>	DEBUG="true"
+>	function DEBUG()
+>	{
+>		if [ "$DEBUG" = "" ]; then
+>			$@
+>		fi
+>	}
+>
+
+
+### BASH作业管理
+
+*	jobs:查看当前在后台执行的进程
+*	Ctrl+z:建当前的前台进程暂停，变成后台进程
+*	bg:将后台暂停的程序继续执行
+*	fg:将后台进程调到前台继续执行
+
+>	fg jobs_num
+
+*	():新建子Shell执行命令，相当于子进程
+
+>	(cmd)
+
+
+### 其他
+
+*	read命令
+
+>	PATH=$PWD
+>	read -a -r arr <<< $PATH		#-r读取原始内容
+
+*	cut命令
+
+*	以TAB分隔，打印第N个子串值，N从1开始计数。
+
+>	echo "$STR" | cut -f $N
+
+*	以指定DELIM分隔，打印第N个子串值，N从1开始计数。
+*	其中，-d部分也可以是$N1,$N2,$N3的形式，即输出多个子串。
+
+>	echo "$STR" | cut -d "$DELIM" -d $N
+
+*	bc命令
+
+*	declare命令
+
+>	declare -a var		#声明为数组
+>	declare -p var		#显示该变量
+>	declare -i var		#声明为整数
+>	declare -x var		#声明为环境变量
+>	declare -f		#显示所有自定义函数名称和函数体
+>	declare -F		#显示所有自定义函数
+>	declare -f var		#声明为函数
+
+*	stat命令
+
+>	stat -c %y filename
+
+
+*	Bash Shell中变量是没有作用域的，默认是全局变量, local 声明局部变量
+
+>	local variable
+
+
+### BASH命令行命令
+
+
+
+

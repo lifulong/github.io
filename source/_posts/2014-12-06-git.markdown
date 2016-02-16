@@ -1,0 +1,148 @@
+---
+title : "git使用详解"
+layout: post
+category : others
+tagline: ""
+tags : [git]
+---
+
+
+#### git基本命令
+
+1.初始化版本库
+
+>	git init
+
+2.设置个人信息
+
+*	在用户目录下设置全局的
+
+>	git config --global user.name "your name"
+>	git config --global user.email "your email"
+
+*	在工程目录下设置局部的
+
+>	git config user.name "your name"
+>	git config user.email "your email"
+
+3.查看修改状态
+
+>	git status
+
+4.添加修改
+
+>	git add filename
+>	git add .
+>	git add -A
+>	git add *
+
+5.提交修改
+
+>	git commit -m "commit log"
+>	git commit -a -m "commit log"		#????
+
+*	提交被拒绝，修改后重写提交
+
+>	git commit --amend
+
+6.取消add
+
+>	git reset
+>	git rm -r -n --cached  your_file_path|your_dir_path		#显示执行结果，不实际执行
+>	git rm -r --cached  your_file_path|your_dir_path
+
+7.取消commit
+
+>	git reset --hard last-commit-id						#恢复索引及status及实际修改
+>	git reset --hard				git reset --hard HEAD
+>	git reset --soft last-commit-id						#恢复索引,不恢复status 及 实际修改
+>	git reset --soft				git reset --soft HEAD
+
+*	恢复git索引和git status状态，不恢复实际修改
+
+>	git reset		git reset --mixed		git reset HEAD			git reset --mixed HEAD
+
+	HEAD HEAD^ HEAD^^ HEAD^<n>	倒数第一次提交，倒数第二次提交，倒数第n次提交
+
+
+8.查看修改记录
+
+>	git show
+>	git show HEAD
+>	git show HEAD^
+>	git log
+
+
+9.跟踪及取消跟踪 已版本控制的文件
+
+*	取消跟踪某版本控制文件
+
+>	git update-index --assume-unchanged your_file_path
+
+*	继续跟踪某版本控制文件
+
+>	git update-index --no-assume-unchanged your_file_path
+
+
+#### git版本管理
+
+1.git clone
+
+>	git clone src_git dst_git
+
+2.git branch
+
+>	git branch					#查看分支
+>	git branch -a				#查看所有分支  
+
+>	git branch new_branch		#建立新分支
+>	git checkout branch_name	#切换工作分支
+>	git checkout -b branch_name	#建立新分支后，切换工作分支  
+
+>	git branch -d branch_name	#删除分支  
+
+>	git merge src_branch		#合并src_branch分支到当前分支  
+
+>	git fetch origin			#同步clone的仓库
+>	git merge origin/master		#同步clone的仓库
+>	git pull remote_git			#拉取远程仓库到本地
+>	git push remote_git current_branch	#提交到远程仓库
+
+3.git remote
+
+>	git remote -v
+>	git remote add name remote_git
+>	git remote rename remote_name1 remote_name2
+>	git remote rm remote_name
+>	git remote fetch host_name branch_name
+>	git pull remote_host remote_branch:local_branch
+
+
+4.git冲突解决
+
+*	当建立开发分支进行开发的过程中，可能其他人提交了更新，而且引发了冲突，  
+*	这时在提交更改前需解决冲突
+
+>	git status				#查看当前分支，比如叫 confict_br
+>	git checkout master		#切换到主分支
+>	git pull				#拉取主分支最新内容
+>	git branch	deal_confict_branch_name		#建立解决冲突的分支
+>	git merge confict_br	#将冲突分支合并到用于冲突解决的分支
+>	git push origin master	#将解决冲突的分支合并到主分支
+
+
+5.git fetch  VS  git pull
+
+*	git pull === git fetch + git merge
+
+*	git fetch  拉取所有的更新到本地，不自动合并，可以手动合并
+*	git pull 拉取所有的更新到本地，并自动合并
+
+*以下内容需实践验证*
+>	git fetch origin master
+>	git log -p master..origin/master
+>	git merge origin/master
+
+6.当前实践...
+
+
