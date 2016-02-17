@@ -1,15 +1,15 @@
 
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+title: Moses
+description: "Fucking Big Data"
+keywords: "Hadoop, Spark, Storm, Kafka, Akaka, BigData"
+url: http://lifulong.me
 # baseurl: "/simplest"
 baseurl: null
 
 google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "fernandomoreira"
+repo: http://github.com/lifulong/lifulong.github.io
+disqus_shortname: "lifulong"
 
 # Build settings
 permalink   : /:year/:title/
@@ -30,21 +30,21 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name     : Moses
+  job      : BigData Engineer
+  bio      : "Nothing to say."
   thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  email    : msl.fulong@gmail.com
+  url      : http://lifulong.me
+  github   : http://github.com/lifulong
+  twitter  : http://twitter.com/lifulong
+  facebook : http://facebook.com/leefulong
+  linkedin : http://linkedin.com/in/lifulong
 
 # social settings
 og_locale: "pt_BR"
 twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+twitter_site: "@leefulong"
 
 gems:
   - bourbon
