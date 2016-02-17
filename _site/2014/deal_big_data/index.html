@@ -1,0 +1,44 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title> 一次Bash处理数据的经历 | Simplest </title> <meta name="description" content=" A free Jekyll theme for download "> <meta name="keywords" content="Jekyll, theme, free, download, SEO, blog, web"> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <!-- Social: Facebook / Open Graph --> <meta property="og:type" content="article"> <meta property="article:author" content="Fernando Moreira"> <meta property="article:section" content="bash"> <meta property="article:tag" content=""> <meta property="article:published_time" content="2014-12-04 00:00:00 +0800"> <meta property="og:url" content="http://nandomoreira.me/2014/deal_big_data/"> <meta property="og:title" content=" 一次Bash处理数据的经历 | Simplest "> <meta property="og:image" content="http://nandomoreira.me"> <meta property="og:description" content=" A free Jekyll theme for download "> <meta property="og:site_name" content="Fernando Moreira"> <meta property="og:locale" content="pt_BR"> <!-- Social: Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="@nandomoreirame"> <meta name="twitter:title" content=" 一次Bash处理数据的经历 | Simplest "> <meta name="twitter:description" content=" A free Jekyll theme for download "> <meta name="twitter:image:src" content="http://nandomoreira.me"> <!-- Social: Google+ / Schema.org --> <meta itemprop="name" content=" 一次Bash处理数据的经历 | Simplest "> <meta itemprop="description" content=" A free Jekyll theme for download "> <meta itemprop="image" content="http://nandomoreira.me"> <!-- rel prev and next --> <link rel="stylesheet" href="/assets/css/main.css"> <!-- Canonical link tag --> <link rel="canonical" href="http://nandomoreira.me/2014/deal_big_data/"> <link rel="alternate" type="application/rss+xml" title="Simplest" href="http://nandomoreira.me/feed.xml"> <script type="text/javascript"> var disqus_shortname = 'fernandomoreira'; var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-52446115-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> </head> <body> <main class="wrapper"> <header class="site-header"> <nav class="nav"> <div class="container"> <h1 class="logo"><a href="/">Simplest<span>blog</span></a></h1> <ul class="navbar"> <li><a href="/about">about</a></li> <li><a href="/feed.xml" target="_blank">feed</a></li> </ul> </div> </nav> </header> <article class="post container" itemscope itemtype="http://schema.org/BlogPosting"> <header class="post-header"> <h1 class="post-title" itemprop="name headline">一次Bash处理数据的经历</h1> <p class="post-meta"><time datetime="2014-12-04T00:00:00+08:00" itemprop="datePublished">Dec 4, 2014</time></p> </header> <div class="post-content" itemprop="articleBody"> <h3 id="section">背景</h3> <p>Nginx访问日志中记录了客户端的访问信息，根据访问URL中带的参数，可以进行行为分析，<br /> 当前日志中记录了过去7天的访问日志，每天的访问日志根据时间分别存放在24个不同的文件中，<br /> 一天的24个日志文件的总大小约20G左右，为了追踪用户手机ID，及该用户的手机机型、<br /> 操作系统型号、APP版本号，需从日志中提取相关的信息</p> <h3 id="section-1">过程</h3> <p><strong>1.Shell单进程提取</strong></p> <blockquote><pre><code>选取符合条件的数据文件，逐个处理文件，
+
+逐行读取文件，判断改行是否符合条件，
+
+如果符合条件，则从改行选取有用的字段；
+
+对该字段进行后续的字符串操作，两级split处理
+
+多个文件的处理结果追加到结果文件中，
+
+追加的时候进行查重处理，重复的数据不追加
+</code></pre></blockquote> <ul> <li><strong>处理半小时后，未结束，生成结果速度明显减慢,5个小时未出最终结果</strong></li> <li><strong>怀疑原始大文件读取到一定行数述速度减慢</strong></li> <li><strong>怀疑追加结果前查重处理当结果数增加时影响查重速度</strong></li> <li><strong>故实现多进程版本，希望加速处理</strong></li> </ul> <p><strong>2.Shell多进程提取</strong></p> <blockquote><pre><code>选取符合条件的数据文件，
+
+每个数据文件建立子Shell进行处理，
+
+处理结果写到独立的结果文件中，追加前进行查重处理，
+
+将多个子Shell的结果进行合并除重
+</code></pre></blockquote> <ul> <li><strong>处理半小时后，未结束，生成结果速度明显减慢,3个小时未出最终结果</strong></li> <li><strong>怀疑追加结果前查重处理当结果数增加时影响查重速度</strong></li> <li><strong>故实现Python版本，处理结果常驻内存增加处理速度</strong></li> </ul> <p><strong>3.Python数据常驻内存处理</strong></p> <blockquote><pre><code>选取其中一个数据文件，
+
+逐行读取文件，逐行处理，
+
+处理结果存放到内存中，在内存中除重，
+
+生成所有结果后，写入到文件中，
+</code></pre></blockquote> <ul> <li><strong>处理半小时后，未结束，3个小时未出最终结果</strong></li> <li><strong>怀疑Python脚本语言本身速度的问题</strong></li> <li><strong>实现C++版本</strong></li> </ul> <p><strong>4.C++处理</strong></p> <blockquote><pre><code>处理过程同Python实现，
+
+只是将实现语言改为C++
+</code></pre></blockquote> <p><strong>5.Shell预处理，数据提取</strong></p> <blockquote><pre><code>选取符合条件的数据文件，24个，
+
+每个文件用一个子Shell处理，
+
+每个子进程首先对该进程负责的文件进行预处理，
+
+从该文件着中提取符合条件的行，生成新的小文件，
+
+子Shell继续逐行处理该小文件，对子文件的每一行进行字符串处理，从中获取键值对，
+
+生成该文件的处理结果，追加到文件中，
+
+子Shell继续处理新生成的文件，进行排序，去重处理，生成该文件的最终结果文件
+
+对24个结果文件，进行合并，排序，除重处理
+</code></pre></blockquote> <ul> <li><strong>实现C++的版本过程中，觉着未必是语言的问题</strong></li> <li><strong>仔细分析后，觉着可能是大数据文件频繁多次读取的问题</strong></li> <li><strong>故对原始文件进行预处理，生成临时中间小文件，进行后续复杂处理</strong></li> <li><strong>实验证明预处理后，明显的提高了处理速度</strong></li> </ul> <h3 id="section-2">总结</h3> <ol> <li> <p>操作大文件时，最好一次操作完毕，进行数据预处理或者消除冗余数据，生成小数据文件</p> </li> <li> <p>尽量不要频繁的操作文件，将数据放在内存中处理</p> </li> </ol> <aside class="share"> <h4>Share this.</h4> <a href="http://twitter.com/share?text=一次Bash处理数据的经历&amp;url=http://nandomoreira.me/2014/deal_big_data/&amp;hashtags=web,dev,blog,soudev&amp;via=nandomoreirame" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">Twitter</a> <a href="https://www.facebook.com/sharer/sharer.php?u=http://nandomoreira.me/2014/deal_big_data/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=235');return false;">Facebook</a> </aside> </div> </article> <footer class="site-footer"> <div class="container"> <small class="pull-left">&copy;2016 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small> <small class="pull-right">by <a href="http://nandomoreira.me/" target="_blank">nandomoreira.me</a></small> </div> </footer> </main> </body> </html>

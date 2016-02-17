@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simplest</title>
+    <description>A free Jekyll theme for download</description>
+    <link>http://nandomoreira.me/</link>
+    <atom:link href="http://nandomoreira.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Feb 2016 18:09:09 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 18:09:09 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Dec 2015 08:05:33 +0800</pubDate>
+        <link>http://nandomoreira.me/2015/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2015/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>李福龙的简历</title>
+        <description>&lt;hr /&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;个人简介&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;姓名：	李福龙&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;性别：	男&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;出生：	1989.3.6&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;邮箱：	gglifulong@163.com (msl.fulong@gmail.com)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;主页：	&lt;a href=&quot;http://lifulong.me&quot;&gt;http://lifulong.me&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;博客：	&lt;a href=&quot;http://lifulong.github.io&quot;&gt;http://lifulong.github.io&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub：	&lt;a href=&quot;https://github.com/lifulong&quot;&gt;李福龙的GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;**状态：	在职 **&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;教育情况&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2010.9-2012.7		哈尔滨工业大学	计算机科学与技术学院	硕士&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2006.9-2010.7		哈尔滨工程大学	计算机科学与技术学院	本科&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;工作经历&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2014.11-0000.00			e代驾&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2014.10-2014.10			北京搜狗科技有限公司&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2012.08-2014.09			兴唐通信科技有限公司&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;专业技能&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;熟悉Hadoop生态(Hadoop,Sqoop,Hive,Storm,Kafka,Spark等)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;熟练Shell&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;熟悉Python/Java/Mysql&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux C(熟练or精通)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;熟练Linux环境编程 , Linux网络编程&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;熟悉Makefile&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;了解Linux内核 , Tcp/IP协议栈&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;项目经历&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;2013.7-2014.09	业务系统软件&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;负责自动化系统中业务板服务软件的设计与开发;
+软件设计开发过程中借鉴了一些开源软件的设计和框架，采用了框架化、通用化、可扩展的设计；
+其中包含：
+	密钥派发服务；
+	模块生产服务；
+	记忆测试服务；
+	配置服务；
+	配置文件解析动态库；
+	网络通信动态库；
+	测试脚本生成工具；(Python,根据配置文件自动生成测试脚本)
+	相关客户端工具；(C#)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linux C. 网络编程. Makefile. Shell. Python, C#&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;api--linux-usb-&quot;&gt;2013.6-2013.7	某设备通信 Api 移植及 Linux Usb 驱动维护&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;主要负责了将某款模块USB、UART通信API从Win平台下移植到Linux平台，重写了底层通信接口；
+该模块Linux下USB驱动的维护；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linux C&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;2012.12-2013.5		某系统设备软件开发(涉密，不详述)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;负责了相关设备 中 部分模块的设计与开发，及该设备整个系统的整合；
+在项目中学习了C#，Oracle，锻炼了软件设计与开发的能力；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;C#,Oracle&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;2012.11-2012.11	密钥格式转换工具(涉密，不详述)&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;该工具主要用于将某公司格式的密钥数据文件转换为我们项目中规定的格式；
+通过阅读Delphi源码分析密钥数据文件格式，并初次接触了MFC的开发；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;MFC&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;2012.9-2012.10	某加密服务器日志审计功能&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;毕业后第一个小任务，改进某服务器的日志审计模块；
+包括日志审计的前端展示、后台数据查询；
+该模块支持多种查询条件的查询和统计，前后端采用Ajax的交互方式；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linux C,Makefile,CGI,Html,JavaScript,Css,Ajax&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;2010.9-2012.7		无线传感器网络位置隐私保护&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;模拟无线传感器网络中的关键节点和攻击者;
+根据位置隐私保护算法，模拟无线传感器节点的通信流量以及攻击者的攻击行为，验证算法的有效性；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;C,C++混用阶段&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;2010.2-2010.7		演化聚类算法研究&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;本科毕业设计，在指导老师的指导下，学习探索了聚类、分类、遗传算法；
+将聚类算法与遗传算法相结合，提出并实现了演化聚类算法，该算法的准确率不低于同类算法；
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;分类算法,聚类算法,遗传算法&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;开源项目&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;暂无&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;我的项目&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;暂无&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-13&quot;&gt;爱好&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;羽毛球&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经济学, 证券分析&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;历史(金融史，中国古代史)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;好读书 &lt;a href=&quot;/book/2014/11/12/booklist/&quot;&gt;书单&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-14&quot;&gt;专业兴趣(学习中，尚未入门..)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linux Kernel, Linux Tcp/Ip Stack, Nginx: (Source Code Reading)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Node Express, Jade, Ejs, Ace, Mysql: (Source Code Want To Read)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;海量数据处理/分布式存储: (有兴趣学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;数据挖掘/NLP: (有兴趣学习)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-15&quot;&gt;荣誉&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2010年哈尔滨工业大学考研 &lt;em&gt;第一名&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;«2011年计算机专业基础综合考试指导全书» ，机械工业出版社， 计算机组成原理部分负责人之一&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-16&quot;&gt;遗憾&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;大学的荒废…&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-17&quot;&gt;自我评价&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;真的有很强的学习能力；&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;真的很努力；&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;真的想有一份可以为之奋斗一辈子的事业；&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;真的有点好高骛远，真的有点浮躁&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-18&quot;&gt;规划&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;高级码农，懂业务、懂算法的 架构师&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Thu, 10 Dec 2015 08:05:33 +0800</pubDate>
+        <link>http://nandomoreira.me/2015/resume/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2015/resume/</guid>
+        
+        
+        <category>Resume</category>
+        
+      </item>
+    
+      <item>
+        <title>sqoop使用入门</title>
+        <description>&lt;h2 id=&quot;sqoop&quot;&gt;sqoop安装&lt;/h2&gt;
+
+&lt;p&gt;1.&lt;strong&gt;安装hadoop2.6.0(2.x)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;到hadoop官网，下载最新的hadoop，&lt;a href=&quot;http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/&quot;&gt;下载链接 http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;wget http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/stable/hadoop-2.6.0.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;或&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;axel http://mirror.cc.columbia.edu/pub/software/apache/hadoop/common/stable/hadoop-2.6.0.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;创建hadoop的根目录，压缩包解压缩后，将解压缩的目录拷贝到hadoop根目录中，作为hadoop根目录的子目录&lt;br /&gt;
+参考&lt;a href=&quot;http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html&quot;&gt;官网&lt;/a&gt;，对hadoop进行配置&lt;/p&gt;
+
+&lt;p&gt;ps:&lt;/p&gt;
+
+&lt;p&gt;hadoop可以对namenode,datanode,tmpdir,logdir进行配置&lt;/p&gt;
+
+&lt;p&gt;修改etc/hadoop/hadoop/core-site.xml&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;pre&gt;&lt;code&gt;&amp;lt;property&amp;gt;
+    &amp;lt;name&amp;gt;dfs.name.dir&amp;lt;/name&amp;gt;
+	&amp;lt;!--
+		//NameNode持久存储名字空间及事务日志的本地文件系统路径。
+	--&amp;gt;
+	&amp;lt;value&amp;gt;/data/hdfs/hdfs1&amp;lt;/value&amp;gt;
+&amp;lt;/property&amp;gt;
+ 
+&amp;lt;property&amp;gt;
+	&amp;lt;!--
+	//DataNode存放块数据的本地文件系统路径，逗号分割的列表。
+	--&amp;gt;
+	&amp;lt;name&amp;gt;dfs.data.dir&amp;lt;/name&amp;gt;
+	&amp;lt;value&amp;gt;/data/hdfs/hdfsdata1&amp;lt;/value&amp;gt;
+&amp;lt;/property&amp;gt;
+ 
+&amp;lt;property&amp;gt;
+	&amp;lt;!--
+	//Hadoop的默认临时路径，这个最好配置，然后在新增节点或者其他情况下莫名其妙的DataNode启动不了，
+	//就删除此文件中的tmp目录即可。不过如果删除了NameNode机器的此目录，那么就需要重新执行NameNode格式化的命令了。
+	--&amp;gt;
+	&amp;lt;name&amp;gt;hadoop.tmp.dir&amp;lt;/name&amp;gt;
+	&amp;lt;value&amp;gt;/data/hdfs/hdfstmp&amp;lt;/value&amp;gt;
+	&amp;lt;description&amp;gt;A base for other temporary directories.&amp;lt;/description&amp;gt;
+&amp;lt;/property&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;修改etc/hadoop/hadoop-env.sh文件&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;export HADOOP_LOG_DIR=/data/hadooplogs/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2.&lt;strong&gt;安装hive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;wget http://apache.dataguru.cn/hive/stable/apache-hive-0.14.0-bin.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;配置:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cp conf/hive-default.xml.template conf/hive-default.xml&lt;/li&gt;
+  &lt;li&gt;cp conf/hive-env.sh.template conf/hive-env.sh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;touch hive-site.xml&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;pre&gt;&lt;code&gt;&amp;lt;configuration&amp;gt;
+
+	&amp;lt;property&amp;gt;
+		&amp;lt;name&amp;gt;javax.jdo.option.ConnectionURL&amp;lt;/name&amp;gt;
+		&amp;lt;value&amp;gt;jdbc:mysql://localhost:3306/hive?createData baseIfNotExist=true&amp;lt;/value&amp;gt;
+		&amp;lt;description&amp;gt;JDBC connect string for a JDBC metastore&amp;lt;/description&amp;gt;
+	&amp;lt;/property&amp;gt;
+
+	&amp;lt;property&amp;gt;
+		&amp;lt;name&amp;gt;javax.jdo.option.ConnectionDriverName&amp;lt;/name&amp;gt;
+		&amp;lt;value&amp;gt;com.mysql.jdbc.Driver&amp;lt;/value&amp;gt;
+		&amp;lt;description&amp;gt;Driver class name for a JDBC metastore&amp;lt;/description&amp;gt;
+	&amp;lt;/property&amp;gt;
+
+	&amp;lt;property&amp;gt;
+		&amp;lt;name&amp;gt;javax.jdo.option.ConnectionUserName&amp;lt;/name&amp;gt;
+		&amp;lt;value&amp;gt;root&amp;lt;/value&amp;gt;
+		&amp;lt;description&amp;gt;username to use against metastore database&amp;lt;/description&amp;gt;
+	&amp;lt;/property&amp;gt;
+
+	&amp;lt;property&amp;gt;
+		&amp;lt;name&amp;gt;javax.jdo.option.ConnectionPassword&amp;lt;/name&amp;gt;
+		&amp;lt;value&amp;gt;test&amp;lt;/value&amp;gt;
+		&amp;lt;description&amp;gt;password to use against metastore database&amp;lt;/description&amp;gt;
+	&amp;lt;/property&amp;gt;
+
+&amp;lt;/configuration&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;将解压缩的目录拷贝到hadoop的根目录中，作为一个子目录，进行配置文件的配置&lt;/p&gt;
+
+&lt;p&gt;3.&lt;strong&gt;安装hbase&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;wget http://apache.fayea.com/hbase/stable/hbase-0.98.9-hadoop2-bin.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.&lt;strong&gt;sqoop安装&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;下载支持hadoop2.x的sqoop可执行压缩包&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;wget http://psg.mtu.edu/pub/apache/sqoop/1.4.5/sqoop-1.4.5.bin__hadoop-2.0.4-alpha.tar.gz	
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;将解压缩的目录拷贝到hadoop根目录中，进行配置文件的配置&lt;/p&gt;
+
+&lt;p&gt;下载java mysql connector,并拷贝到sqoop/lib/目录,&lt;a href=&quot;http://dev.mysql.com/downloads/connector/j/5.0.html&quot;&gt;connector下载地址&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;sqoop-1&quot;&gt;sqoop命令&lt;/h2&gt;
+
+&lt;p&gt;1.&lt;strong&gt;codegen:将数据库表生成jar文件&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop codegen --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;该文件可通过mapreduce执行???未验证&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;2.&lt;strong&gt;eval:快速验证sql语句的执行结果&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop eval --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root -query &quot;SELECT * FROM book LIMIT 10&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;执行结果显示在控制台&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;3.&lt;strong&gt;查询数据库列表&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop list-databases --connect jdbc:mysql://localhost:3306/ -username root -password root
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.&lt;strong&gt;查询数据库中的所有表&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop list-tables --connect jdbc:mysql://localhost:3306/test_sqoop -username root -password root
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;5.&lt;strong&gt;导入数据到hdfs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book -m 1 --target-dir /user/hive/result
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;参数说明&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;--append
+--warehouse-dir &amp;lt;dir&amp;gt;:与--target-dir不能同时使用，指定数据导入的存放目录，适用于hdfs导入，不适合导入hive目录
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6.&lt;strong&gt;合并hdfs中数据&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;7.&lt;strong&gt;复制表结构&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop create-hive-table --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;8.&lt;strong&gt;导入mysql表中数据到hive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book --fields-terminated-by &quot;\t&quot; --lines-terminated-by &quot;\n&quot; -m 1 --hive-import --hive-overwrite --create-hive-table --hive-table book --delete-target-dir
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;参数说明&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;--table &amp;lt;table-name&amp;gt;:关系数据库表名，数据从该表中获取
+
+--boundary-query &amp;lt;statement&amp;gt;:查询的字段中不能有数据类型为字符串的字段
+
+--columns&amp;lt;col1,col2,col…&amp;gt;:
+
+--split-by&amp;lt;column-name&amp;gt;:表的列名，用来切分工作单元，一般后面跟主键ID
+
+--query，-e&amp;lt;statement&amp;gt;:	从查询结果中导入数据，该参数使用时必须指定--target-dir、--hive-table，在查询语句中一定要有where条件且在where条件中需要包含$CONDITION
+
+--where statement:从关系数据库导入数据时的查询条件，--where &quot;id = 2&quot;
+
+--target-dir &amp;lt;dir&amp;gt;:指定hdfs路径
+
+--null-string &amp;lt;null-string&amp;gt;: string类型的字段值为null时的填充值
+
+--null-non-string &amp;lt;null-string&amp;gt;: 非string类型的字段值为null时的填充值
+
+-m,--num-mappers n:启动N个map来并行导入数据，默认是4个
+
+--direct:直接导入模式，使用的是关系数据库自带的导入导出工具。官网上是说这样导入会更快
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;9.&lt;strong&gt;增量导入mysql数据到hive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book --fields-terminated-by &quot;\t&quot; --lines-terminated-by &quot;\n&quot; -m 1  --check-column id --incremental append --last-value 4 --hive-import --hive-table book
+
+--check-column col:用来作为判断的列名，如id
+--incremental mode:
+&amp;gt;	append：追加，比如对大于last-value指定的值之后的记录进行追加导入
+&amp;gt;	lastmodified：最后的修改时间，追加last-value指定的日期之后的记录
+
+--last-value value:指定自从上次导入后列的最大值（大于该指定的值），也可以自己设定某一值
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;10.&lt;strong&gt;导入数据库中的所有表到hdfs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import-all-tables --connect jdbc:mysql://localhost:3306/test_sqoop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;11.&lt;strong&gt;导入数据库中的所有表到hive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import-all-tables --connect jdbc:mysql://localhost:3306/test_sqoop	--hive-import
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;12.&lt;strong&gt;生成job&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --create myjob  --import --connectjdbc:mysql://localhost:3306/test_sqoop --table book
+sqoop/bin/sqoop job --exec myjob
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;13.&lt;strong&gt;free form query import&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sqoop支持导入查询结果集. Instead of using the –table, –columns and –where arguments, you can specify a SQL statement with the –query argument.&lt;/p&gt;
+
+&lt;p&gt;通过–query方式导入时必须指定导入目标地址 –target-dir.(&lt;em&gt;通过hdfs文件的方式操作hive&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;If you want to import the results of a query in parallel, then each map task will need to execute a copy of the query, with results partitioned by bounding conditions inferred by Sqoop. Your query must include the token $CONDITIONS which each Sqoop process will replace with a unique condition expression. You must also select a splitting column with –split-by.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop import --query &#39;SELECT * FROM book WHERE id=3 AND $CONDITIONS&#39; --split-by id --target-dir /user/hive/book
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;mysqlhive&quot;&gt;增量更新mysql到hive策略&lt;/h2&gt;
+
+&lt;p&gt;1.&lt;strong&gt;借助job及时间戳&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;需数据库中存在时间戳字段(timestamp类型)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --create incretest -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table incretest -m 1 --hive-import --hive-overwrite --hive-table INCRETEST --append --incremental lastmodified --check-column update_time --last-value &#39;2015/1/20 10:00:00&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --create incretest -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table incretest -m 1 --hive-import --hive-table INCRETEST --append --incremental lastmodified --check-column update_time --last-value &#39;2015/1/20 10:00:00&#39; 多次执行次job，sqoop job会自动将起始时间更新为job上次执行的时间，已验证
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --exec incretest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2.&lt;strong&gt;借助job及 increase id&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;需数据库中存在increase id(int类型)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --create import_book -- import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root --table book  --fields-terminated-by &quot;\t&quot; --lines-terminated-by &quot;\n&quot; -m 1 --hive-import --hive-table book --incremental append --check-column id --last-value &#39;0&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;多次执行次job，sqoop job会自动将起始ID更新为job上次执行的Upper_ID，已验证&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop job --exec incretest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3.&lt;strong&gt;借助hive工具&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;$SQOOP_HOME/bin/sqoop import --connect ${rdbms_connstr} --username ${rdbms_username} --password ${rdbms_pwd} --table ${rdbms_table} --columns &quot;${rdbms_columns}&quot; --where &quot;CREATE_TIME &amp;gt; to_date(&#39;${startdate}&#39;,&#39;yyyy-mm-dd hh24:mi:ss&#39;) and CREATE_TIME &amp;lt; to_date(&#39;${enddate}&#39;,&#39;yyyy-mm-dd hh24:mi:ss&#39;)&quot; --hive-import --hive-overwrite --hive-table ${hive_increment_table}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;$HIVE_HOME/bin/hive -e &quot;insert overwrite table ${hive_full_table} select * from ${hive_increment_table} union all select a.* from ${hive_full_table} a left outer join ${hive_increment_table} b on a.service_code = b.service_code where b.service_code is null;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.&lt;strong&gt;文件方式操作hive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;sqoop/bin/sqoop import --connect jdbc:mysql://localhost:3306/test_sqoop --username root --password root  -e &quot;select * from book where id=4 and \$CONDITIONS&quot;  --fields-terminated-by &quot;\t&quot; --lines-terminated-by &quot;\n&quot; --append --as-textfile --target-dir /user/hive/warehouse/book -m 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;bug&quot;&gt;BUG&lt;/h2&gt;
+
+&lt;p&gt;–hive-overwrite 与  –hive-partition-key –hive-partition-value	不能同时使用
+create-hive-table  命令中 –hive-table 与  –hive-partition-key 	不能同时使用&lt;/p&gt;
+
+&lt;h2 id=&quot;ref&quot;&gt;Ref&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html&quot;&gt;官方文档http://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.zihou.me/html/2014/01/28/9114.html/comment-page-1&quot;&gt;sqoop命令详解&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 20 Jan 2015 00:00:00 +0800</pubDate>
+        <link>http://nandomoreira.me/2015/sqoop/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2015/sqoop/</guid>
+        
+        <category>git</category>
+        
+        
+        <category>others</category>
+        
+      </item>
+    
+      <item>
+        <title>git使用详解</title>
+        <description>&lt;h4 id=&quot;git&quot;&gt;git基本命令&lt;/h4&gt;
+
+&lt;p&gt;1.初始化版本库&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2.设置个人信息&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在用户目录下设置全局的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git config --global user.name &quot;your name&quot;
+git config --global user.email &quot;your email&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在工程目录下设置局部的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git config user.name &quot;your name&quot;
+git config user.email &quot;your email&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3.查看修改状态&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git status
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.添加修改&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git add filename
+git add .
+git add -A
+git add *
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;5.提交修改&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git commit -m &quot;commit log&quot;
+git commit -a -m &quot;commit log&quot;		#????
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;提交被拒绝，修改后重写提交&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git commit --amend
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6.取消add&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git reset
+git rm -r -n --cached  your_file_path|your_dir_path		#显示执行结果，不实际执行
+git rm -r --cached  your_file_path|your_dir_path
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;7.取消commit&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git reset --hard last-commit-id						#恢复索引及status及实际修改
+git reset --hard				git reset --hard HEAD
+git reset --soft last-commit-id						#恢复索引,不恢复status 及 实际修改
+git reset --soft				git reset --soft HEAD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;恢复git索引和git status状态，不恢复实际修改&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git reset		git reset --mixed		git reset HEAD			git reset --mixed HEAD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;HEAD HEAD^ HEAD^^ HEAD^&amp;lt;n&amp;gt;	倒数第一次提交，倒数第二次提交，倒数第n次提交
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;8.查看修改记录&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git show
+git show HEAD
+git show HEAD^
+git log
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;9.跟踪及取消跟踪 已版本控制的文件&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;取消跟踪某版本控制文件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git update-index --assume-unchanged your_file_path
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;继续跟踪某版本控制文件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git update-index --no-assume-unchanged your_file_path
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;git-1&quot;&gt;git版本管理&lt;/h4&gt;
+
+&lt;p&gt;1.git clone&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git clone src_git dst_git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2.git branch&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git branch					#查看分支
+git branch -a				#查看所有分支  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git branch new_branch		#建立新分支
+git checkout branch_name	#切换工作分支
+git checkout -b branch_name	#建立新分支后，切换工作分支  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git branch -d branch_name	#删除分支  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git merge src_branch		#合并src_branch分支到当前分支  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git fetch origin			#同步clone的仓库
+git merge origin/master		#同步clone的仓库
+git pull remote_git			#拉取远程仓库到本地
+git push remote_git current_branch	#提交到远程仓库
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3.git remote&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git remote -v
+git remote add name remote_git
+git remote rename remote_name1 remote_name2
+git remote rm remote_name
+git remote fetch host_name branch_name
+git pull remote_host remote_branch:local_branch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4.git冲突解决&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;当建立开发分支进行开发的过程中，可能其他人提交了更新，而且引发了冲突，&lt;/li&gt;
+  &lt;li&gt;这时在提交更改前需解决冲突&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;git status				#查看当前分支，比如叫 confict_br
+git checkout master		#切换到主分支
+git pull				#拉取主分支最新内容
+git branch	deal_confict_branch_name		#建立解决冲突的分支
+git merge confict_br	#将冲突分支合并到用于冲突解决的分支
+git push origin master	#将解决冲突的分支合并到主分支
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;5.git fetch  VS  git pull&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;git pull === git fetch + git merge&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git fetch  拉取所有的更新到本地，不自动合并，可以手动合并&lt;/li&gt;
+  &lt;li&gt;git pull 拉取所有的更新到本地，并自动合并&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;以下内容需实践验证&lt;/em&gt;
+&amp;gt;	git fetch origin master
+&amp;gt;	git log -p master..origin/master
+&amp;gt;	git merge origin/master&lt;/p&gt;
+
+&lt;p&gt;6.当前实践…&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 06 Dec 2014 00:00:00 +0800</pubDate>
+        <link>http://nandomoreira.me/2014/git/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2014/git/</guid>
+        
+        <category>git</category>
+        
+        
+        <category>others</category>
+        
+      </item>
+    
+      <item>
+        <title>一次Bash处理数据的经历</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;背景&lt;/h3&gt;
+
+&lt;p&gt;Nginx访问日志中记录了客户端的访问信息，根据访问URL中带的参数，可以进行行为分析，&lt;br /&gt;
+当前日志中记录了过去7天的访问日志，每天的访问日志根据时间分别存放在24个不同的文件中，&lt;br /&gt;
+一天的24个日志文件的总大小约20G左右，为了追踪用户手机ID，及该用户的手机机型、&lt;br /&gt;
+操作系统型号、APP版本号，需从日志中提取相关的信息&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;过程&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1.Shell单进程提取&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;选取符合条件的数据文件，逐个处理文件，
+
+逐行读取文件，判断改行是否符合条件，
+
+如果符合条件，则从改行选取有用的字段；
+
+对该字段进行后续的字符串操作，两级split处理
+
+多个文件的处理结果追加到结果文件中，
+
+追加的时候进行查重处理，重复的数据不追加
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;处理半小时后，未结束，生成结果速度明显减慢,5个小时未出最终结果&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;怀疑原始大文件读取到一定行数述速度减慢&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;怀疑追加结果前查重处理当结果数增加时影响查重速度&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;故实现多进程版本，希望加速处理&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2.Shell多进程提取&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;选取符合条件的数据文件，
+
+每个数据文件建立子Shell进行处理，
+
+处理结果写到独立的结果文件中，追加前进行查重处理，
+
+将多个子Shell的结果进行合并除重
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;处理半小时后，未结束，生成结果速度明显减慢,3个小时未出最终结果&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;怀疑追加结果前查重处理当结果数增加时影响查重速度&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;故实现Python版本，处理结果常驻内存增加处理速度&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3.Python数据常驻内存处理&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;pre&gt;&lt;code&gt;选取其中一个数据文件，
+
+逐行读取文件，逐行处理，
+
+处理结果存放到内存中，在内存中除重，
+
+生成所有结果后，写入到文件中，
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;处理半小时后，未结束，3个小时未出最终结果&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;怀疑Python脚本语言本身速度的问题&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;实现C++版本&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4.C++处理&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;处理过程同Python实现，
+
+只是将实现语言改为C++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;5.Shell预处理，数据提取&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;选取符合条件的数据文件，24个，
+
+每个文件用一个子Shell处理，
+
+每个子进程首先对该进程负责的文件进行预处理，
+
+从该文件着中提取符合条件的行，生成新的小文件，
+
+子Shell继续逐行处理该小文件，对子文件的每一行进行字符串处理，从中获取键值对，
+
+生成该文件的处理结果，追加到文件中，
+
+子Shell继续处理新生成的文件，进行排序，去重处理，生成该文件的最终结果文件
+
+对24个结果文件，进行合并，排序，除重处理
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;实现C++的版本过程中，觉着未必是语言的问题&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;仔细分析后，觉着可能是大数据文件频繁多次读取的问题&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;故对原始文件进行预处理，生成临时中间小文件，进行后续复杂处理&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;实验证明预处理后，明显的提高了处理速度&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;总结&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;操作大文件时，最好一次操作完毕，进行数据预处理或者消除冗余数据，生成小数据文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;尽量不要频繁的操作文件，将数据放在内存中处理&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 04 Dec 2014 00:00:00 +0800</pubDate>
+        <link>http://nandomoreira.me/2014/deal_big_data/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2014/deal_big_data/</guid>
+        
+        
+        <category>bash</category>
+        
+      </item>
+    
+      <item>
+        <title>Bash语法</title>
+        <description>&lt;h3 id=&quot;bash&quot;&gt;BASH语法&lt;/h3&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;表达式求值&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eval 对表达式的值计算两次，并返回&lt;/li&gt;
+  &lt;li&gt;` 计算表达式的值&lt;/li&gt;
+  &lt;li&gt;示例&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;eval $()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;数学表达式计算&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;num=$[num+1]
+num=$((num+1))
+num=`expr $num+1`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;() 与 {}&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;()用户组合执行多个命令；&lt;/li&gt;
+  &lt;li&gt;{}用户组合执行多个命令；&lt;/li&gt;
+  &lt;li&gt;()多个命令在子Shell中执行；{}在当前Shell中执行；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;(()) 与 $(())&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(())专用于数值计算；&lt;/li&gt;
+  &lt;li&gt;$(())直接获取数值计算结果；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;’ 与 “&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘号内所有字符当作普通字符处理&lt;/li&gt;
+  &lt;li&gt;“号内’$’与’`‘当作特殊字符处理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-4&quot;&gt;文件重定向&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;exec&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;exec 3&amp;lt;&amp;gt;$filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关闭3的输出&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;exec 3&amp;lt;&amp;amp;-
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关闭3的输入&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;exec 3&amp;gt;&amp;amp;-
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-5&quot;&gt;数组&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;声明数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;declare -a array_name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;声明关联数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;declare -A array_name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;创建数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;array_name=(\&#39;ele1\&#39;, \&#39;ele2\&#39;)
+array_name=([0]=\&#39;ele1\&#39;, [1]=\&#39;ele2\&#39;)
+array_name[0]=\&#39;ele1\&#39;		array_name[1] = \&#39;ele2\&#39;
+str=&quot;1 2 3 4 5&quot;		arr=($str)
+read -a array_name &amp;lt;&amp;lt;&amp;lt; &quot;str str2 str3&quot;
+IFS=: read -a array_name &amp;lt;&amp;lt;&amp;lt; &quot;str:str2:str3&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;数组操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;${#array_name[*]}
+${#array_name[@]}
+${array_name[*]}
+${array_name[@]}
+${array_name[n]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;销毁数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;unset arr[1]	#销毁某个元素
+unset arr		#销毁整个数组
+unset arr[*]		#销毁整个数组
+unset arr[@]		#销毁整个数组
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;关联数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;array_name=([key1]=&quot;value1&quot;, [key2]=&quot;value2&quot;)  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;for key in ${!array_name[*]}
+do
+	echo $key,${array_name[$key]}
+done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;for value in ${array_name[*]}
+do
+	echo $value
+done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;数组名本身是变量(变量数组名)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;read driver_id yearmonth&amp;lt;&amp;lt;-EOF
+	$line
+EOF
+arrname=driver_online_arr_${yearmonth}
+eval $arrname[$driver_id]=1
+eval echo \${$arrname[$driver_id]}
+value=$(eval echo \${$arrname[$driver_id]})
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;字符串处理&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;取字符串长度&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;expr length $str
+expr ${#str}
+expr &quot;$str&quot; : &quot;.*&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;查找字串位置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;expr index $str &quot;substr&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;字符串替换&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;str=&quot;apple, tree, apple tree&quot;
+echo ${str/apple/APPLE}   # 替换第一次出现的apple
+echo ${str//apple/APPLE}  # 替换所有apple
+echo ${str/#apple/APPLE}  # 如果字符串str以apple开头，则用APPLE替换它
+echo ${str/%apple/APPLE}  # 如果字符串str以apple结尾，则用APPLE替换它
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;选取字串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;expr substr &quot;$str&quot; start_pos end_pos
+echo ${str:start_pos}
+echo ${str:start_pos:end_pos}
+echo ${str:-start_pos:end_pos}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;截_去_字串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;echo ${str#a*c}		#左边截取最短的匹配
+echo ${str##a*c}	#左边截取最长的匹配
+echo ${str#&quot;a*c&quot;}	#左边截取最短的匹配
+echo ${str##&quot;a*c&quot;}	#左边截取最长的匹配
+echo ${str%a*c}		#右边截取最短的匹配
+echo ${str%%a*c}	#右边截取最长的匹配
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;比较&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;[[ &quot;a.txt&quot; == a.* ]]		#pattern compare
+[[ &quot;a.txt&quot; = ~ .*\.txt ]]	#regex compare
+[[ &quot;str1&quot; == &quot;str2&quot; ]]
+[[ &quot;str1&quot; &amp;lt; &quot;str2&quot; ]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;连接&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;${str1}${str2}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;bash-1&quot;&gt;BASH调试&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;-x 将每条执行的命令输出到标准输出&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;set -x
+/bin/bash -x
+bash -x bashfilr.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;-n 直输出命令，不执行&lt;/li&gt;
+  &lt;li&gt;-v 将读取到的shell脚本输出到标准输出&lt;/li&gt;
+  &lt;li&gt;trap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;trap &#39;err_func param&#39; ERR|EXIT|DEBUG
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;定义 DEBUG 调试钩子&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;DEBUG=&quot;true&quot;
+function DEBUG()
+{
+	if [ &quot;$DEBUG&quot; = &quot;&quot; ]; then
+		$@
+	fi
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;bash-2&quot;&gt;BASH作业管理&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jobs:查看当前在后台执行的进程&lt;/li&gt;
+  &lt;li&gt;Ctrl+z:建当前的前台进程暂停，变成后台进程&lt;/li&gt;
+  &lt;li&gt;bg:将后台暂停的程序继续执行&lt;/li&gt;
+  &lt;li&gt;fg:将后台进程调到前台继续执行&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;fg jobs_num
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;():新建子Shell执行命令，相当于子进程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;(cmd)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;其他&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;read命令&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;PATH=$PWD
+read -a -r arr &amp;lt;&amp;lt;&amp;lt; $PATH		#-r读取原始内容
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;cut命令&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;以TAB分隔，打印第N个子串值，N从1开始计数。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;echo &quot;$STR&quot; | cut -f $N
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;以指定DELIM分隔，打印第N个子串值，N从1开始计数。&lt;/li&gt;
+  &lt;li&gt;其中，-d部分也可以是$N1,$N2,$N3的形式，即输出多个子串。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;echo &quot;$STR&quot; | cut -d &quot;$DELIM&quot; -d $N
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;bc命令&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;declare命令&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;declare -a var		#声明为数组
+declare -p var		#显示该变量
+declare -i var		#声明为整数
+declare -x var		#声明为环境变量
+declare -f		#显示所有自定义函数名称和函数体
+declare -F		#显示所有自定义函数
+declare -f var		#声明为函数
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stat命令&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;stat -c %y filename
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bash Shell中变量是没有作用域的，默认是全局变量, local 声明局部变量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;local variable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;bash-3&quot;&gt;BASH命令行命令&lt;/h3&gt;
+
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 +0800</pubDate>
+        <link>http://nandomoreira.me/2014/bash/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2014/bash/</guid>
+        
+        <category>bash</category>
+        
+        <category>Bash</category>
+        
+        
+        <category>bash</category>
+        
+      </item>
+    
+      <item>
+        <title>Todo List</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;2016.02.15&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;scala,java,akka学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spark试用&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;2015.05.27&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;基于地理位置的私教服务【寻找羽毛球教练等】&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于地理位置的自助约球服务【约羽毛球爱好者】&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;通过Sqoop切入Hadoop&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;学好羽毛球&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;培养新爱好&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;学车&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hadoop架构及源码&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Storm使用&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux内核架构[含TCP/IP协议栈]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经典挖掘算法的学习实现&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;2015.03.02&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Hadoop学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hadoop生态圈学习&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;2014.12.14&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Php Yii框架学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;redis,memcache学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mysql查询优化学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;基于路网信息的实时轨迹优化算法学习&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;基于路网信息的实时轨迹优化开源项目&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;2014.12.6&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-11&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;邮件客户端(含垃圾邮件过滤、批量邮件处理)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-12&quot;&gt;任务&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;加入GoAgent日志，写日志文件，方便后续分析&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;个人主页中加入微信二维码&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-13&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ssl,ssh,samba,pop3,smtp,ftp协议学习&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-14&quot;&gt;2014.12.3&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-15&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;免费开源消息推送服务&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-16&quot;&gt;2014.11.30&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-17&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;对比分析工具，有利于做决定&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;每日一笑&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux P2P 聊天工具&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux 中文输入法改进&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux系统普通生活必须功能的改进???[定位为程序员?]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-18&quot;&gt;任务&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;个人博客内容，关键字提取，搜索支持&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-19&quot;&gt;2014.11.28&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-20&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;爬取感兴趣网页内容，生成PDF，地铁阅读&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-21&quot;&gt;2014.11.21&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-22&quot;&gt;任务&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;更新 网卡驱动ath9k&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-23&quot;&gt;2014.11.13&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-24&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;记录孩子从出生开始的生活点滴：生活照片及趣事&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;伴随孩子从出生到成长的电子宠物&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;集娱乐与学习于一体的 幼儿  游戏&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;新闻P2P，注册用户每天限主题个数&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;浏览器插件，取词划译&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;批量网页转PDF小工具&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web版 SSH客户端&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;线上 小区[同区活动、羽毛球活动、etc]&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-25&quot;&gt;2014.11.11&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-26&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;音频文件声音提取&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;优质搞笑视频APP&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;批量文件重命名工具&lt;/strong&gt;		&lt;strong&gt;(处理中…)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;section-27&quot;&gt;2014.11.08&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-28&quot;&gt;项目&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;PasswordManager(密码管理工具)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;21 Days(21天习惯记录及监督)&lt;/strong&gt;		&lt;strong&gt;(未开始…)  [重点项目]&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Personal Main Page(个人主页) &lt;a href=&quot;http://lifulong.me&quot;&gt;http://lifulong.me&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section-29&quot;&gt;学习&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Nginx(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux Kernel(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux Tcp/Ip Stack(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mysql(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Node Express(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jade(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ace(源码架构学习)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NLP,数据挖掘学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;网络爬虫&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Android开发&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web开发&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;羽毛球学习&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;经济学、证券、历史&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 08 Nov 2014 00:00:00 +0800</pubDate>
+        <link>http://nandomoreira.me/2014/todolist/</link>
+        <guid isPermaLink="true">http://nandomoreira.me/2014/todolist/</guid>
+        
+        <category>Todo</category>
+        
+        
+        <category>Todo</category>
+        
+      </item>
+    
+  </channel>
+</rss>
