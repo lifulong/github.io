@@ -68,10 +68,13 @@ comments: true
 &emsp;&emsp;基于司机最近30单的记录，计算司机的平均就位速度，划分司机速度因子，同步到线上redis，影响司机派单优先级(MR)
 
 
+&emsp;&emsp;基于司机最近三个月的接单记录，聚类司机常在上线位置(MR)
+
+
 &emsp;&emsp;根据司机最近3个月的成单、上显示长、服务质量数据，计算该司机在所在城市的排名，根据排名计算得分，并计算最终综合分确定司机的等级，同步至线上redis，影响司机派单优先权及特权(MR,Sqoop)
 
 
-&emsp;&emsp;解析nginx访问日志，从中解析司机上传的定位点信息，存储到hive表中；根据司机轨迹的速度、角度等策略判断异常点占比；评估新的点过滤规则的效果(HadoopStreaming,Python)
+&emsp;&emsp;解析nginx访问日志，从中解析司机上传的定位点信息到hive表；根据司机轨迹的速度、角度等策略判断异常点占比；评估新的点过滤规则的效果(HadoopStreaming,Python)
 
 
 &emsp;&emsp;市场广告投放效果监测(分渠道app激活，新客，成单数据追踪)，广告商推广app激活实时确认(Shell,Hive,Kafka)
@@ -196,7 +199,7 @@ comments: true
 
 ## 开源项目
 
-*	**暂无**
+*	**&emsp;&emsp;暂无**
 
 ---
 
@@ -204,7 +207,7 @@ comments: true
 
 ## 我的项目
 
-*	**暂无**
+*	**&emsp;&emsp;基于路网信息修正轨迹:[Github地址](https://github.com/lifulong/map-matching-algorithm)**
 
 ---
 
@@ -212,9 +215,9 @@ comments: true
 
 ## 爱好
 
-*	**羽毛球**
-*	**经济学, 证券分析**
-*	**历史(金融史，中国古代史)**
+*	**&emsp;&emsp;羽毛球**
+*	**&emsp;&emsp;经济学, 证券分析**
+*	**&emsp;&emsp;历史(金融史，中国古代史)**
 
 ---
 
@@ -222,13 +225,13 @@ comments: true
 
 ## 专业兴趣(学习中，尚未入门..)
 
-*	**Hadoop, Storm, Spark: (Source Code Reading)**
+*	**&emsp;&emsp;Hadoop, Storm, Spark: (Source Code Reading)**
 
-*	**深度学习/NLP/分布式计算: (有兴趣学习)**
+*	**&emsp;&emsp;深度学习/NLP/分布式计算: (有兴趣学习)**
 
-*	**Linux Kernel, Linux Tcp/Ip Stack, Nginx: (Source Code Read)**
+*	**&emsp;&emsp;Linux Kernel, Linux Tcp/Ip Stack, Nginx: (Source Code Read)**
 
-*	**Ace: (Source Code Want To Read)**
+*	**&emsp;&emsp;Ace: (Source Code Want To Read)**
 
 ---
 
@@ -236,9 +239,9 @@ comments: true
 
 ## 荣誉
 
-*	**2010年哈尔滨工业大学考研 *第一名***
+*	**&emsp;&emsp;2010年哈尔滨工业大学考研 *第一名***
 
-*	**<<2011年计算机专业基础综合考试指导全书>> ，机械工业出版社， 计算机组成原理部分负责人之一**
+*	**&emsp;&emsp;<<2011年计算机专业基础综合考试指导全书>> ，机械工业出版社， 计算机组成原理部分负责人之一**
 
 ---
 
@@ -246,7 +249,7 @@ comments: true
 
 ## 遗憾
 
-*	**大学的荒废...**
+*	**&emsp;&emsp;大学的荒废...**
 
 ---
 
@@ -254,13 +257,13 @@ comments: true
 
 ##自我评价
 
-*	**自认为比较努力；**
+*	**&emsp;&emsp;自认为比较努力；**
 
-*	**学习能力还是很自信的；**
+*	**&emsp;&emsp;学习能力还是很自信的；**
 
-*	**期望有一份可以为之奋斗一辈子的事业；**
+*	**&emsp;&emsp;期望有一份可以为之奋斗一辈子的事业；**
 
-*	**有点好高骛远，有点浮躁**
+*	**&emsp;&emsp;有点好高骛远，有点浮躁**
 
 ---
 
@@ -268,7 +271,7 @@ comments: true
 
 ---
 
-*	**高级码农，懂业务、懂算法的 架构师**
+*	**&emsp;&emsp;高级码农，懂业务、懂算法的 架构师**
 
 ---
 
