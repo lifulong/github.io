@@ -1,5 +1,10 @@
 
 
+###2018.04.15	lifulong
+
+*	(ADD)spark任务提交过程分析
+*	(ADD)kubernetes pod kill过程分析及nginx后台服务导致无法杀掉问题
+*	(ADD)pyspark jar包问题
 
 ###2014.11.29	lifulong	msl.fulong@gmail.com
 
