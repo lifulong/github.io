@@ -5,6 +5,8 @@
 *	(ADD)spark任务提交过程分析
 *	(ADD)kubernetes pod kill过程分析及nginx后台服务导致无法杀掉问题
 *	(ADD)pyspark jar包问题
+*	(ADD)机器学习算法实践
+*	(ADD)预排序遍历树算法
 
 ###2014.11.29	lifulong	msl.fulong@gmail.com
 
